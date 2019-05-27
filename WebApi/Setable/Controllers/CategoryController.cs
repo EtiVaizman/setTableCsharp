@@ -13,6 +13,7 @@ namespace Setable.Controllers
         [Route("getAllCategories")]
         public List<DTO.Category> GetAllCategories()
         {
+            ///good
             return BLL.CategoryLogic.GetAllCategories();
         }
         //קבלת קטגוריה לפי id
