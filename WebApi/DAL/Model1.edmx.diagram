@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="47e18e77f0d842dd9d63a0df9354fcdb" Name="Diagram1">
+        <EntityTypeShape EntityType="SetTableModel.Category" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SetTableModel.Customer" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SetTableModel.Order" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SetTableModel.OrderBasket" Width="1.5" PointX="7.125" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SetTableModel.Product" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SetTableModel.ProductOfOrder" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SetTableModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="SetTableModel.FK_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="SetTableModel.FK_idCust" ManuallyRouted="false" />
+        <AssociationConnector Association="SetTableModel.FK_order" ManuallyRouted="false" />
+        <AssociationConnector Association="SetTableModel.FK_orderProduct" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
